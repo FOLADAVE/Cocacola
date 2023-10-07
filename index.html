@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+            <header>
+                <a href="#"><img src="images\logo.png" alt="logo"></a>
+                <div class="toggle" onclick="toggleMenu()"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Taste the feeling</h2>
+                <p>Coca-Cola, the world's favorite soft drink, is a refreshing beverage that brings happiness and joy to every moment. 
+                    Coca-Cola delivers an unmistakable taste experience that transcends generations. Whether enjoyed on its own, poured over ice, or paired with your favorite meal.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="w3-content w3-display-container" id="contents">
+            <img class="mySlides" src="images\cocacola1.png" style="width:100%">
+            <img class="mySlides" src="images\cocacola6.png" style="width:100%">
+            <img class="mySlides" src="images\cocacola4.png" style="width:100%">
+            <img class="mySlides" src="images\cocacola3.png" style="width:100%">
+          
+            <button class="w3-button left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="images\facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="images\twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="images\instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
